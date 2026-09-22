@@ -1,0 +1,1 @@
+export default function Progress({value}:{value:number}){return <div className="h-2 rounded-full bg-white/10 overflow-hidden"><div className="h-full rounded-full bg-gradient-to-l from-violet-400 to-cyan-400" style={{width:`${value}%`}}/></div>}
